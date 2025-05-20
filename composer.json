@@ -30,7 +30,7 @@
   "require": {
     "php": "^8.1",
     "illuminate/contracts": "^10.0||^11.0",
-    "bagistoplus/visual": "^0.1.0",
+    "bagistoplus/visual": "@dev",
     "livewire/livewire": "^3.6"
   },
   "require-dev": {
