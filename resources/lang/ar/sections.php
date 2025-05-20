@@ -374,4 +374,75 @@ return [
         'average_rating' => 'متوسط التقييم',
         'no_reviews'     => 'لا توجد مراجعات بعد.',
     ],
+
+    'text-with-image' => [
+        'name'        => 'نص مع صورة',
+        'description' => 'عرض محتوى نصي بجانب صورة مع تخطيط قابل للتعديل.',
+
+        'settings' => [
+            'image_label'           => 'الصورة',
+            'image_position_label'  => 'موضع الصورة',
+            'left_label'            => 'الصورة أولاً',
+            'right_label'           => 'الصورة ثانياً',
+
+            'image_height_label'    => 'ارتفاع الصورة',
+            'image_height_auto'     => 'تكيّف مع الصورة',
+            'image_height_sm'       => 'صغير',
+            'image_height_md'       => 'متوسط',
+            'image_height_lg'       => 'كبير',
+
+            'image_width_label'     => 'عرض الصورة (سطح المكتب)',
+            'width_sm'              => 'صغير',
+            'width_md'              => 'متوسط',
+            'width_lg'              => 'كبير',
+
+            'content_position_label'    => 'موضع المحتوى (عمودي)',
+            'position_top'              => 'أعلى',
+            'position_middle'           => 'منتصف',
+            'position_bottom'           => 'أسفل',
+
+            'content_align_label'       => 'محاذاة المحتوى (سطح المكتب)',
+            'content_align_mobile_label' => 'محاذاة المحتوى (الجوال)',
+            'align_start'               => 'بداية',
+            'align_center'              => 'المنتصف',
+            'align_end'                 => 'النهاية',
+        ],
+
+        'blocks' => [
+            'heading' => [
+                'label' => 'العنوان',
+                'settings' => [
+                    'text_label' => 'نص العنوان',
+                    'text_default' => 'صورة مع نص'
+                ],
+            ],
+            'body' => [
+                'label' => 'النص الأساسي',
+                'settings' => [
+                    'content_label' => 'نص الفقرة',
+                    'content_default' => 'ادمج نصًا مع صورة لتسليط الضوء على منتجك أو مجموعتك أو مقالة مدونتك. أضف تفاصيل حول التوفر أو النمط أو حتى مراجعة.'
+                ],
+            ],
+            'button' => [
+                'label' => 'زر',
+                'settings' => [
+                    'text_label' => 'نص الزر',
+                    'url_label'  => 'رابط الزر',
+                    'text_default' => 'نص الزر',
+                    'variant_label'        => 'نوع الزر',
+
+                    'variant_primary'      => 'رئيسي',
+                    'variant_secondary'    => 'ثانوي',
+                    'variant_accent'       => 'بارز',
+                    'variant_neutral'      => 'محايد',
+
+                    'style_label'          => 'نمط الزر',
+                    'style_solid'          => 'صلب',
+                    'style_soft'           => 'ناعم',
+                    'style_outline'        => 'مخطط',
+                    'style_ghost'          => 'شبح',
+                ],
+            ],
+        ],
+    ],
 ];

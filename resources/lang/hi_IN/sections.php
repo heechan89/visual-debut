@@ -376,4 +376,75 @@ return [
         'average_rating' => 'औसत रेटिंग',
         'no_reviews'     => 'अभी तक कोई समीक्षा नहीं है।',
     ],
+
+    'text-with-image' => [
+        'name'        => 'चित्र के साथ पाठ',
+        'description' => 'कॉन्फ़िगर करने योग्य लेआउट के साथ एक छवि के साथ पाठ सामग्री दिखाएँ।',
+
+        'settings' => [
+            'image_label'           => 'चित्र',
+            'image_position_label'  => 'चित्र की स्थिति',
+            'left_label'            => 'पहले चित्र',
+            'right_label'           => 'दूसरे चित्र',
+
+            'image_height_label'    => 'चित्र की ऊँचाई',
+            'image_height_auto'     => 'चित्र के अनुसार समायोजित करें',
+            'image_height_sm'       => 'छोटा',
+            'image_height_md'       => 'मध्यम',
+            'image_height_lg'       => 'बड़ा',
+
+            'image_width_label'     => 'चित्र की चौड़ाई (डेस्कटॉप)',
+            'width_sm'              => 'छोटा',
+            'width_md'              => 'मध्यम',
+            'width_lg'              => 'बड़ा',
+
+            'content_position_label'    => 'सामग्री की स्थिति (ऊर्ध्वाधर)',
+            'position_top'              => 'ऊपर',
+            'position_middle'           => 'मध्य',
+            'position_bottom'           => 'नीचे',
+
+            'content_align_label'       => 'सामग्री संरेखण (डेस्कटॉप)',
+            'content_align_mobile_label' => 'सामग्री संरेखण (मोबाइल)',
+            'align_start'               => 'प्रारंभ',
+            'align_center'              => 'मध्य',
+            'align_end'                 => 'अंत',
+        ],
+
+        'blocks' => [
+            'heading' => [
+                'label' => 'शीर्षक',
+                'settings' => [
+                    'text_label' => 'शीर्षक पाठ',
+                    'text_default' => 'चित्र के साथ पाठ'
+                ],
+            ],
+            'body' => [
+                'label' => 'मुख्य पाठ',
+                'settings' => [
+                    'content_label' => 'पैरा का पाठ',
+                    'content_default' => 'अपने चुने हुए उत्पाद, संग्रह, या ब्लॉग पोस्ट पर ध्यान केंद्रित करने के लिए पाठ को एक चित्र के साथ जोड़ें। उपलब्धता, शैली, या यहां तक कि समीक्षा जैसी जानकारी जोड़ें।'
+                ],
+            ],
+            'button' => [
+                'label' => 'बटन',
+                'settings' => [
+                    'text_label' => 'बटन का पाठ',
+                    'url_label'  => 'बटन का URL',
+                    'text_default' => 'बटन का पाठ',
+                    'variant_label'        => 'बटन का प्रकार',
+
+                    'variant_primary'      => 'प्राथमिक',
+                    'variant_secondary'    => 'माध्यमिक',
+                    'variant_accent'       => 'प्रभावशाली',
+                    'variant_neutral'      => 'तटस्थ',
+
+                    'style_label'          => 'बटन की शैली',
+                    'style_solid'          => 'ठोस',
+                    'style_soft'           => 'मुलायम',
+                    'style_outline'        => 'आउटलाइन',
+                    'style_ghost'          => 'घोस्ट',
+                ],
+            ],
+        ],
+    ],
 ];

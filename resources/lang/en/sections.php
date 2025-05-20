@@ -367,4 +367,75 @@ return [
         'average_rating' => 'Average Rating',
         'no_reviews'     => 'No reviews yet.',
     ],
+
+    'text-with-image' => [
+        'name'        => 'Text with Image',
+        'description' => 'Show text content alongside an image with configurable layout.',
+
+        'settings' => [
+            'image_label'           => 'Image',
+            'image_position_label'  => 'Image Position',
+            'left_label'            => 'Image first',
+            'right_label'           => 'Image second',
+
+            'image_height_label'    => 'Image Height',
+            'image_height_auto'     => 'Adapt to Image',
+            'image_height_sm'       => 'Small',
+            'image_height_md'       => 'Medium',
+            'image_height_lg'       => 'Large',
+
+            'image_width_label'     => 'Image Width (Desktop)',
+            'width_sm'              => 'Small',
+            'width_md'              => 'Medium',
+            'width_lg'              => 'Large',
+
+            'content_position_label'    => 'Content Position (Vertical)',
+            'position_top'              => 'Top',
+            'position_middle'           => 'Middle',
+            'position_bottom'           => 'Bottom',
+
+            'content_align_label'       => 'Content Alignment (Desktop)',
+            'content_align_mobile_label' => 'Content Alignment (Mobile)',
+            'align_start'               => 'Start',
+            'align_center'              => 'Center',
+            'align_end'                 => 'End',
+        ],
+
+        'blocks' => [
+            'heading' => [
+                'label' => 'Heading',
+                'settings' => [
+                    'text_label' => 'Heading Text',
+                    'text_default' => 'Image with text'
+                ],
+            ],
+            'body' => [
+                'label' => 'Body Text',
+                'settings' => [
+                    'content_label' => 'Paragraph Text',
+                    'content_default' => 'Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review'
+                ],
+            ],
+            'button' => [
+                'label' => 'Button',
+                'settings' => [
+                    'text_label' => 'Button Text',
+                    'url_label'  => 'Button URL',
+                    'text_default' => 'Button Text',
+                    'variant_label'        => 'Button Variant',
+
+                    'variant_primary'      => 'Primary',
+                    'variant_secondary'    => 'Secondary',
+                    'variant_accent'       => 'Accent',
+                    'variant_neutral'      => 'Neutral',
+
+                    'style_label'          => 'Button Style',
+                    'style_solid'          => 'Solid',
+                    'style_soft'           => 'Soft',
+                    'style_outline'        => 'Outline',
+                    'style_ghost'          => 'Ghost',
+                ],
+            ],
+        ],
+    ],
 ];

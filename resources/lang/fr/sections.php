@@ -345,4 +345,75 @@ return [
         'average_rating' => 'Note moyenne',
         'no_reviews' => 'Pas encore d\'avis.',
     ],
+
+    'text-with-image' => [
+        'name'        => 'Texte avec Image',
+        'description' => 'Afficher du contenu textuel accompagné d’une image avec une disposition configurable.',
+
+        'settings' => [
+            'image_label'           => 'Image',
+            'image_position_label'  => 'Position de l’image',
+            'left_label'            => 'Image en premier',
+            'right_label'           => 'Image en second',
+
+            'image_height_label'    => 'Hauteur de l’image',
+            'image_height_auto'     => 'Adapter à l’image',
+            'image_height_sm'       => 'Petite',
+            'image_height_md'       => 'Moyenne',
+            'image_height_lg'       => 'Grande',
+
+            'image_width_label'     => 'Largeur de l’image (Bureau)',
+            'width_sm'              => 'Petite',
+            'width_md'              => 'Moyenne',
+            'width_lg'              => 'Grande',
+
+            'content_position_label'    => 'Position du contenu (Verticale)',
+            'position_top'              => 'Haut',
+            'position_middle'           => 'Milieu',
+            'position_bottom'           => 'Bas',
+
+            'content_align_label'       => 'Alignement du contenu (Bureau)',
+            'content_align_mobile_label' => 'Alignement du contenu (Mobile)',
+            'align_start'               => 'Début',
+            'align_center'              => 'Centre',
+            'align_end'                 => 'Fin',
+        ],
+
+        'blocks' => [
+            'heading' => [
+                'label' => 'En-tête',
+                'settings' => [
+                    'text_label' => 'Texte de l’en-tête',
+                    'text_default' => 'Image avec texte'
+                ],
+            ],
+            'body' => [
+                'label' => 'Texte principal',
+                'settings' => [
+                    'content_label' => 'Texte du paragraphe',
+                    'content_default' => 'Associez du texte à une image pour mettre en valeur un produit, une collection ou un article de blog. Ajoutez des détails sur la disponibilité, le style ou même un avis.'
+                ],
+            ],
+            'button' => [
+                'label' => 'Bouton',
+                'settings' => [
+                    'text_label' => 'Texte du bouton',
+                    'url_label'  => 'URL du bouton',
+                    'text_default' => 'Texte du bouton',
+                    'variant_label'        => 'Variante du bouton',
+
+                    'variant_primary'      => 'Principal',
+                    'variant_secondary'    => 'Secondaire',
+                    'variant_accent'       => 'Accent',
+                    'variant_neutral'      => 'Neutre',
+
+                    'style_label'          => 'Style du bouton',
+                    'style_solid'          => 'Plein',
+                    'style_soft'           => 'Doux',
+                    'style_outline'        => 'Contour',
+                    'style_ghost'          => 'Fantôme',
+                ],
+            ],
+        ],
+    ],
 ];
