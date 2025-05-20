@@ -57,7 +57,7 @@
             @break
 
             @case('body')
-              <p class="text-sm text-gray-700" {{ $block->liveUpdate('content') }}>
+              <p class="text-sm" {{ $block->liveUpdate('content') }}>
                 {{ $block->settings->content }}
               </p>
             @break

@@ -416,4 +416,46 @@ return [
             ],
         ],
     ],
+
+    'collage' => [
+        'name'        => 'Collage',
+        'description' => 'Mise en page flexible pour mélanger des images, des produits et des catégories.',
+
+        'settings' => [
+            'heading_label'        => 'Titre',
+            'heading_size_label'   => 'Taille du titre (px)',
+        ],
+
+        'blocks' => [
+            'image' => [
+                'label' => 'Image',
+                'settings' => [
+                    'image_label' => 'Image',
+                ],
+            ],
+            'product' => [
+                'label' => 'Produit',
+                'settings' => [
+                    'product_label' => 'Produit',
+                ],
+            ],
+            'custom' => [
+                'label' => 'Contenu personnalisé',
+                'settings' => [
+                    'image_label'     => 'Image',
+                    'title_label'     => 'Titre',
+                    'text_label'      => 'Description',
+                    'link_label'      => 'Lien',
+                    'link_text_label' => 'Texte du lien',
+                ],
+            ],
+            'category' => [
+                'label' => 'Catégorie',
+                'settings' => [
+                    'category_label' => 'Sélectionner une catégorie',
+                ],
+            ],
+        ],
+    ],
+
 ];

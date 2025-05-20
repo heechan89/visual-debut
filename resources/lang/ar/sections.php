@@ -445,4 +445,46 @@ return [
             ],
         ],
     ],
+
+    'collage' => [
+        'name'        => 'كولاج',
+        'description' => 'تخطيط مرن لدمج الصور والمنتجات والفئات.',
+
+        'settings' => [
+            'heading_label'        => 'العنوان',
+            'heading_size_label'   => 'حجم العنوان (بكسل)',
+        ],
+
+        'blocks' => [
+            'image' => [
+                'label' => 'صورة',
+                'settings' => [
+                    'image_label' => 'صورة',
+                ],
+            ],
+            'product' => [
+                'label' => 'منتج',
+                'settings' => [
+                    'product_label' => 'منتج',
+                ],
+            ],
+            'custom' => [
+                'label' => 'محتوى مخصص',
+                'settings' => [
+                    'image_label'     => 'صورة',
+                    'title_label'     => 'العنوان',
+                    'text_label'      => 'الوصف',
+                    'link_label'      => 'الرابط',
+                    'link_text_label' => 'نص الرابط',
+                ],
+            ],
+            'category' => [
+                'label' => 'فئة',
+                'settings' => [
+                    'category_label' => 'اختر الفئة',
+                ],
+            ],
+        ],
+    ],
+
 ];

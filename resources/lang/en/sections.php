@@ -438,4 +438,46 @@ return [
             ],
         ],
     ],
+
+    'collage' => [
+        'name'        => 'Collage',
+        'description' => 'Flexible layout to mix images, products, and categories.',
+
+        'settings' => [
+            'heading_label'        => 'Heading',
+            'heading_size_label'   => 'Heading Size (px)',
+        ],
+
+        'blocks' => [
+            'image' => [
+                'label' => 'Image',
+                'settings' => [
+                    'image_label' => 'Image',
+                ],
+            ],
+            'product' => [
+                'label' => 'Product',
+                'settings' => [
+                    'product_label' => 'Product',
+                ],
+            ],
+            'custom' => [
+                'label' => 'Custom Content',
+                'settings' => [
+                    'image_label' => 'Image',
+                    'title_label' => 'Title',
+                    'text_label'  => 'Description',
+                    'link_label'  => 'Link',
+                    'link_text_label' => 'Link text'
+                ],
+            ],
+            'category' => [
+                'label' => 'Category',
+                'settings' => [
+                    'category_label' => 'Select Category',
+                ],
+            ],
+        ],
+    ],
+
 ];

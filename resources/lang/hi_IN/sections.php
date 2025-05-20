@@ -447,4 +447,46 @@ return [
             ],
         ],
     ],
+
+    'collage' => [
+        'name'        => 'कोलाज',
+        'description' => 'छवियों, उत्पादों और श्रेणियों को मिलाने के लिए लचीला लेआउट।',
+
+        'settings' => [
+            'heading_label'        => 'शीर्षक',
+            'heading_size_label'   => 'शीर्षक का आकार (पिक्सेल)',
+        ],
+
+        'blocks' => [
+            'image' => [
+                'label' => 'छवि',
+                'settings' => [
+                    'image_label' => 'छवि',
+                ],
+            ],
+            'product' => [
+                'label' => 'उत्पाद',
+                'settings' => [
+                    'product_label' => 'उत्पाद',
+                ],
+            ],
+            'custom' => [
+                'label' => 'कस्टम सामग्री',
+                'settings' => [
+                    'image_label'     => 'छवि',
+                    'title_label'     => 'शीर्षक',
+                    'text_label'      => 'विवरण',
+                    'link_label'      => 'लिंक',
+                    'link_text_label' => 'लिंक पाठ',
+                ],
+            ],
+            'category' => [
+                'label' => 'श्रेणी',
+                'settings' => [
+                    'category_label' => 'श्रेणी चुनें',
+                ],
+            ],
+        ],
+    ],
+
 ];
