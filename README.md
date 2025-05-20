@@ -19,19 +19,7 @@
 composer require bagistoplus/visual-debut
 ```
 
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Build Assets
-
-```bash
-npm run build
-```
-
-### 4. Publish a assets
+### 2. Publish a assets
 
 Ensure that Bagisto Visual is installed in your Bagisto project. Then, link the theme:
 
