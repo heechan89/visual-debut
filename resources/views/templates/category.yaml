@@ -1,0 +1,6 @@
+sections:
+  category:
+    type: visual-debut::category-page
+
+order:
+  - category

@@ -1,0 +1,29 @@
+sections:
+  hero-banner:
+    type: visual-debut::hero-banner
+
+  category-list:
+    type: visual-debut::category-list
+    blocks:
+      category-1:
+        type: category
+        settings:
+          category: 2
+      category-2:
+        type: category
+        settings:
+          category: 3
+
+  featured-products:
+    type: visual-debut::featured-products
+    settings:
+      product_type: featured
+      nb_products: 4
+  newsletter:
+    type: visual-debut::newsletter
+
+order:
+  - hero-banner
+  - category-list
+  - featured-products
+  - newsletter

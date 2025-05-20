@@ -1,0 +1,18 @@
+:root,
+[data-color-scheme] {
+  --depth: 1;
+  @apply bg-background text-on-background;
+}
+
+*,
+::after,
+::before,
+::backdrop,
+::file-selector-button {
+  @apply border-on-background/8;
+}
+
+.box {
+  border-radius: var(--box-radius, 0);
+  border-width: var(--box-border-width, 0px);
+}

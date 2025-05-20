@@ -1,0 +1,6 @@
+sections:
+  address-form:
+    type: visual-debut::customer-add-address
+
+order:
+  - address-form

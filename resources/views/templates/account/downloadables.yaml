@@ -1,0 +1,6 @@
+sections:
+  downloadables:
+    type: visual-debut::downloadables
+
+order:
+  - downloadables

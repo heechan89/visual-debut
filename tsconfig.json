@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "importHelpers": true,
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "jsx": "preserve",
+    "allowJs": true,
+    "noEmit": true,
+    "types": ["node", "vite/client"]
+  },
+  "include": ["resources/assets/ts/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts", "build"]
+}

@@ -1,0 +1,6 @@
+sections:
+  reviews:
+    type: visual-debut::customer-reviews
+
+order:
+  - reviews
