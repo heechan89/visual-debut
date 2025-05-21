@@ -31,6 +31,11 @@ class Collage extends BladeSection
         return _t('collage.description');
     }
 
+    public static function previewImageUrl(): string
+    {
+        return bagisto_asset('images/sections/collage.png', 'visual-debut');
+    }
+
     public static function settings(): array
     {
         return [

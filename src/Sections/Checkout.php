@@ -14,6 +14,8 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Attributes\On;
 
+use function BagistoPlus\VisualDebut\_t;
+
 #[On(Events::COUPON_APPLIED)]
 #[On(Events::COUPON_REMOVED)]
 class Checkout extends LivewireSection
@@ -210,4 +212,19 @@ class Checkout extends LivewireSection
             ]);
         }
     }
+
+    public static function name(): string
+    {
+        return _t('checkout.name');
+    }
+
+    public static function description(): string
+    {
+        return _t('checkout.description');
+    }
+
+    // public static function previewImageUrl(): string
+    // {
+    //     return bagisto_asset('images/sections/checkout.png', 'visual-debut');
+    // }
 }

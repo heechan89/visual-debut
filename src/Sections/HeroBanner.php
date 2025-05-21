@@ -12,6 +12,21 @@ class HeroBanner extends BladeSection
 {
     protected static string $view = 'shop::sections.hero-banner';
 
+    public static function name(): string
+    {
+        return _t('hero-banner.name');
+    }
+
+    public static function description(): string
+    {
+        return _t('hero-banner.description');
+    }
+
+    public static function previewImageUrl(): string
+    {
+        return bagisto_asset('images/sections/hero-banner.png', 'visual-debut');
+    }
+
     public static function settings(): array
     {
         // section settings

@@ -221,6 +221,11 @@ class ProductDetails extends LivewireSection
         return _t('product-details.description');
     }
 
+    public static function previewImageUrl(): string
+    {
+        return bagisto_asset('images/sections/product-details.png', 'visual-debut');
+    }
+
     public static function settings(): array
     {
         return ProductDetailsSchema::settings();

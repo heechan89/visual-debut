@@ -7,6 +7,8 @@ use BagistoPlus\VisualDebut\Enums\Events;
 use BagistoPlus\VisualDebut\Support\InteractsWithCart;
 use Livewire\Attributes\On;
 
+use function BagistoPlus\VisualDebut\_t;
+
 #[On(Events::SHIPPING_METHOD_SET)]
 #[On(Events::COUPON_APPLIED)]
 #[On(Events::COUPON_REMOVED)]
@@ -19,6 +21,21 @@ class CartContent extends LivewireSection
     protected static string $view = 'shop::sections.cart-content';
 
     public $itemsSelected = [];
+
+    public static function name(): string
+    {
+        return _t('cart-content.name');
+    }
+
+    public static function description(): string
+    {
+        return _t('cart-content.description');
+    }
+
+    public static function previewImageUrl(): string
+    {
+        return bagisto_asset('images/sections/cart.png', 'visual-debut');
+    }
 
     public function updateItemQuantity($itemId, $quantity)
     {

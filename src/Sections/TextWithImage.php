@@ -26,6 +26,11 @@ class TextWithImage extends BladeSection
         return _t('text-with-image.description');
     }
 
+    public static function previewImageUrl(): string
+    {
+        return bagisto_asset('images/sections/text-with-image.png', 'visual-debut');
+    }
+
     public static function settings(): array
     {
         return [

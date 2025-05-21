@@ -9,6 +9,8 @@ use Livewire\Attributes\Computed;
 use Livewire\WithPagination;
 use Webkul\Attribute\Repositories\AttributeRepository;
 
+use function BagistoPlus\VisualDebut\_t;
+
 class SearchResult extends LivewireSection
 {
     use HandlesProductListing;
@@ -17,6 +19,16 @@ class SearchResult extends LivewireSection
     protected static array $enabledOn = ['search'];
 
     protected static string $view = 'shop::sections.search-result';
+
+    public static function name(): string
+    {
+        return _t('search-result.name');
+    }
+
+    public static function description(): string
+    {
+        return _t('search-result.description');
+    }
 
     public function paginationView()
     {

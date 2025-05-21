@@ -15,6 +15,9 @@ return [
     ],
 
     'hero-banner' => [
+        'nom' => 'Bannière Hero',
+        'description' => 'Une bannière pleine largeur avec du texte et des boutons d’appel à l’action.',
+
         'settings' => [
             'scheme_label'           => 'Palette de couleurs',
             'background_label'       => 'Image de fond',
@@ -456,6 +459,51 @@ return [
                 ],
             ],
         ],
+    ],
+
+    'contact-form' => [
+        'name'        => 'Formulaire de Contact',
+        'description' => 'Section simple avec un formulaire de nom, e-mail et message.',
+
+        'success_message' => 'Merci ! Votre message a été envoyé.',
+    ],
+
+    'breadcrumbs' => [
+        'name' => 'Fil d’Ariane',
+        'description' => 'Affiche un fil d’Ariane pour la navigation.',
+        'settings' => [
+            'separator_label' => 'Caractère de séparation',
+        ],
+    ],
+
+    'cart-content' => [
+        'name' => 'Contenu du Panier',
+        'description' => 'Affiche un résumé du panier du client, y compris les produits, les quantités, les prix et les actions comme la mise à jour ou la suppression d’articles.',
+    ],
+
+    'checkout' => [
+        'name' => 'Paiement',
+        'description' => 'Une mise en page complète du paiement incluant les détails de facturation, le récapitulatif du panier, la saisie du coupon et le calcul du total.',
+    ],
+
+    'checkout-success' => [
+        'name' => 'Confirmation de Commande',
+        'description' => 'Affiche un message de confirmation de commande avec les détails du récapitulatif après un paiement réussi.',
+    ],
+
+    'search-result' => [
+        'name' => 'Résultats de recherche',
+        'description' => 'Affiche les produits ou contenus correspondant à la requête de recherche de l’utilisateur, avec prise en charge du filtrage et de la pagination.',
+    ],
+
+    'cms-page' => [
+        'name' => 'Page CMS',
+        'description' => 'Affiche le contenu d’une page CMS, permettant l’affichage de texte et de médias statiques ou dynamiques dans une mise en page sectionnée.',
+    ],
+
+    'error-page' => [
+        'name' => 'Page d’erreur',
+        'description' => 'Affiche un message d’erreur stylisé (par exemple 404 ou 500) avec des liens de navigation ou une recherche en option pour aider les utilisateurs à se repérer.',
     ],
 
 ];

@@ -6,11 +6,28 @@ use BagistoPlus\Visual\Sections\BladeSection;
 use Diglactic\Breadcrumbs\Breadcrumbs as BreadcrumbsBreadcrumbs;
 use Illuminate\Support\Facades\Route;
 
+use function BagistoPlus\VisualDebut\_t;
+
 class Breadcrumbs extends BladeSection
 {
     protected static string $view = 'shop::sections.breadcrumbs';
 
     protected static array $disabledOn = ['index', 'category'];
+
+    public static function name(): string
+    {
+        return _t('breadcrumbs.name');
+    }
+
+    public static function description(): string
+    {
+        return _t('breadcrumbs.description');
+    }
+
+    public static function previewImageUrl(): string
+    {
+        return bagisto_asset('images/sections/breadcrumbs.png', 'visual-debut');
+    }
 
     public function getViewData(): array
     {

@@ -16,6 +16,9 @@ return [
     ],
 
     'hero-banner' => [
+        'name' => 'Hero Banner',
+        'description' => 'A full-width banner with text and call-to-action buttons.',
+
         'settings' => [
             'scheme_label'           => 'Color Scheme',
             'background_label'       => 'Background Image',
@@ -478,6 +481,51 @@ return [
                 ],
             ],
         ],
+    ],
+
+    'contact-form' => [
+        'name'        => 'Contact Form',
+        'description' => 'Simple section with name, email, and message form.',
+
+        'success_message' => 'Thank you! Your message has been sent.',
+    ],
+
+    'breadcrumbs' => [
+        'name' => 'Breadcrumbs',
+        'description' => 'Shows a breadcrumb trail for navigation.',
+        'settings' => [
+            'separator_label' => 'Separator character',
+        ],
+    ],
+
+    'cart-content' => [
+        'name' => 'Cart Content',
+        'description' => 'Displays a summary of the customer’s cart, including products, quantities, prices, and actions like updating or removing items.',
+    ],
+
+    'checkout' => [
+        'name' => 'Checkout',
+        'description' => 'A complete checkout layout including billing details, cart summary, coupon input, and total calculation.',
+    ],
+
+    'checkout-success' => [
+        'name' => 'Checkout Success',
+        'description' => 'Displays an order confirmation message with summary details after a successful checkout.',
+    ],
+
+    'search-result' => [
+        'name' => 'Search Results',
+        'description' => 'Displays products or content matching the user’s search query, with support for filtering and pagination.',
+    ],
+
+    'cms-page' => [
+        'name' => 'CMS Page',
+        'description' => 'Renders the content of a CMS page, allowing static or dynamic text and media to be displayed within a section layout.',
+    ],
+
+    'error-page' => [
+        'name' => 'Error Page',
+        'description' => 'Displays a styled error message (e.g. 404 or 500) with optional navigation links or search to help users recover.',
     ],
 
 ];

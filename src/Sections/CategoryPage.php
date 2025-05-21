@@ -33,6 +33,11 @@ class CategoryPage extends LivewireSection
         return _t('category-page.description');
     }
 
+    public static function previewImageUrl(): string
+    {
+        return bagisto_asset('images/sections/category-page.png', 'visual-debut');
+    }
+
     public static function settings(): array
     {
         return [
