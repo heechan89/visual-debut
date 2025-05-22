@@ -106,7 +106,8 @@ return [
                 'name' => 'कार्ट पूर्वावलोकन',
                 'settings' => [
                     'heading_label' => 'शीर्षक',
-                    'description_label' => 'विवरण'
+                    'description_label' => 'विवरण',
+                    'description_default' => 'अपने पहले आदेश पर 30% तक की छूट पाएं',
                 ]
             ],
         ],

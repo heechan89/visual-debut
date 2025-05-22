@@ -20,6 +20,8 @@ class CartContent extends LivewireSection
 
     protected static string $view = 'shop::sections.cart-content';
 
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/cart.png';
+
     public $itemsSelected = [];
 
     public static function name(): string
@@ -30,11 +32,6 @@ class CartContent extends LivewireSection
     public static function description(): string
     {
         return _t('cart-content.description');
-    }
-
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/cart.png', 'visual-debut');
     }
 
     public function updateItemQuantity($itemId, $quantity)

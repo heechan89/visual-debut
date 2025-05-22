@@ -15,10 +15,7 @@ class CategoryList extends BladeSection
 {
     protected static string $view = 'shop::sections.category-list';
 
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/category-list.png', 'visual-debut');
-    }
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/category-list.png';
 
     public function categories()
     {

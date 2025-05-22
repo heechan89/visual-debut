@@ -105,7 +105,7 @@ class Header extends BladeSection
                         ->default(__('shop::app.checkout.cart.mini-cart.shopping-cart')),
 
                     RichText::make('description', _t('header.blocks.cart.settings.description_label'))
-                        ->default(core()->getConfigData('sales.checkout.mini_cart.offer_info'))
+                        ->default(_t('header.blocks.cart.settings.description_default')),
                 ])
         ];
     }

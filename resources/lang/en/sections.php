@@ -105,7 +105,8 @@ return [
                 'name' => 'Cart preview',
                 'settings' => [
                     'heading_label' => 'Heading',
-                    'description_label' => 'Description'
+                    'description_label' => 'Description',
+                    'description_default' => 'Get Up To 30% OFF on your 1st order'
                 ]
             ],
         ],

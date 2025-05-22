@@ -18,6 +18,8 @@ class ProductReviews extends LivewireSection
 
     protected static string $view = 'shop::sections.product-reviews';
 
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/products-reviews.png';
+
     protected static array $enabledOn = ['product'];
 
     public $reviews;
@@ -125,11 +127,6 @@ class ProductReviews extends LivewireSection
     public static function description(): string
     {
         return _t('product-reviews.description');
-    }
-
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/product-reviews.png', 'visual-debut');
     }
 
     public static function settings(): array

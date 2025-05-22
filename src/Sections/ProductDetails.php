@@ -17,6 +17,8 @@ class ProductDetails extends LivewireSection
 
     protected static string $view = 'shop::sections.product-details';
 
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/product-details.png';
+
     public int $quantity = 1;
 
     public array $variantAttributes = [];
@@ -219,11 +221,6 @@ class ProductDetails extends LivewireSection
     public static function description(): string
     {
         return _t('product-details.description');
-    }
-
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/product-details.png', 'visual-debut');
     }
 
     public static function settings(): array

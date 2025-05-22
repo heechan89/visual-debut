@@ -12,6 +12,8 @@ class Newsletter extends BladeSection
 {
     protected static string $view = 'shop::sections.newsletter';
 
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/newsletter.png';
+
     public static function name(): string
     {
         return _t('newsletter.name');
@@ -20,11 +22,6 @@ class Newsletter extends BladeSection
     public static function description(): string
     {
         return _t('newsletter.description');
-    }
-
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/newsletter.png', 'visual-debut');
     }
 
     public static function settings(): array

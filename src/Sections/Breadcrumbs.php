@@ -14,6 +14,8 @@ class Breadcrumbs extends BladeSection
 
     protected static array $disabledOn = ['index', 'category'];
 
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/breadcrumbs.png';
+
     public static function name(): string
     {
         return _t('breadcrumbs.name');
@@ -22,11 +24,6 @@ class Breadcrumbs extends BladeSection
     public static function description(): string
     {
         return _t('breadcrumbs.description');
-    }
-
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/breadcrumbs.png', 'visual-debut');
     }
 
     public function getViewData(): array

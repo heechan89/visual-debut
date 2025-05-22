@@ -22,7 +22,7 @@
 <link
   rel="icon"
   sizes="16x16"
-  href="{{ core()->getCurrentChannel()->favicon_url ?? bagisto_asset('images/favicon.ico') }}"
+  href="{{ core()->getCurrentChannel()->favicon_url ?? asset('themes/shop/visual-debut/images/favicon.ico') }}"
 />
 
 @bagistoVite(['resources/assets/css/index.css', 'resources/assets/ts/shop/index.ts'])

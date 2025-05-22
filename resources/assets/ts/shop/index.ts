@@ -23,9 +23,6 @@ import navigation from './features/navigation';
 import productActions from './features/product-actions';
 import rating from './components/ui/rating';
 
-// @ts-ignore
-import.meta.glob(['../../images/**']);
-
 // ui components as plugin
 Alpine.plugin([accordion, collapsible, dropdown, modal, numberInput, slider, tabs, toasts, rating]);
 

@@ -18,10 +18,7 @@ class FeaturedProducts extends BladeSection
 
     protected static string $view = 'shop::sections.featured-products';
 
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/featured-products.png', 'visual-debut');
-    }
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/featured-products.png';
 
     public function getProducts()
     {

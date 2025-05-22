@@ -107,6 +107,7 @@ return [
                 'settings' => [
                     'heading_label' => 'العنوان',
                     'description_label' => 'الوصف',
+                    'description_default' => 'احصل على خصم يصل إلى 30٪ على طلبك الأول',
                 ],
             ],
         ],

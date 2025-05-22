@@ -10,6 +10,8 @@ class ContactForm extends BladeSection
 {
     protected static string $view = 'shop::sections.contact-form';
 
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/contact.png';
+
     public static function name(): string
     {
         return _t('contact-form.name');
@@ -18,10 +20,5 @@ class ContactForm extends BladeSection
     public static function description(): string
     {
         return _t('contact-form.description');
-    }
-
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/contact.png', 'visual-debut');
     }
 }

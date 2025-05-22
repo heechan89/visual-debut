@@ -7,7 +7,7 @@ return [
     'author' => 'Bagisto Plus',
     'assets_path' => 'public/themes/shop/visual-debut',
     'views_path' => 'resources/themes/visual-debut/views',
-    'preview_image' => 'images/theme-preview.png',
+    'preview_image' => 'themes/shop/visual-debut/images/theme-preview.png',
     'documentation_url' => 'https://visual.bagistoplus.com',
 
     'vite' => [

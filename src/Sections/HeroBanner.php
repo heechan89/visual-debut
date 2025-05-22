@@ -12,6 +12,8 @@ class HeroBanner extends BladeSection
 {
     protected static string $view = 'shop::sections.hero-banner';
 
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/hero-banner.png';
+
     public static function name(): string
     {
         return _t('hero-banner.name');
@@ -20,11 +22,6 @@ class HeroBanner extends BladeSection
     public static function description(): string
     {
         return _t('hero-banner.description');
-    }
-
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/hero-banner.png', 'visual-debut');
     }
 
     public static function settings(): array
@@ -90,7 +87,7 @@ class HeroBanner extends BladeSection
     {
         return [
             'settings' => [
-                'background'      => bagisto_asset('images/hero-banner.avif', 'visual-debut'),
+                'background'      => asset('themes/shop/visual-debut/images/hero-banner.avif'),
             ],
 
             'blocks' => [

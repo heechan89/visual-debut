@@ -103,7 +103,8 @@ return [
                 'name' => 'Aperçu du panier',
                 'settings' => [
                     'heading_label' => 'Titre',
-                    'description_label' => 'Description'
+                    'description_label' => 'Description',
+                    'description_default' => 'Bénéficiez de jusqu\'à 30% de réduction sur votre 1ère commande',
                 ]
             ],
         ],

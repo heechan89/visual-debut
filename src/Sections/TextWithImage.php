@@ -16,6 +16,8 @@ class TextWithImage extends BladeSection
 {
     protected static string $view = 'shop::sections.text-with-image';
 
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/text-with-image.png';
+
     public static function name(): string
     {
         return _t('text-with-image.name');
@@ -24,11 +26,6 @@ class TextWithImage extends BladeSection
     public static function description(): string
     {
         return _t('text-with-image.description');
-    }
-
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/text-with-image.png', 'visual-debut');
     }
 
     public static function settings(): array

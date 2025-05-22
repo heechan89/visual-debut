@@ -19,6 +19,8 @@ class Collage extends BladeSection
 {
     protected static string $view = 'shop::sections.collage';
 
+    protected static string $previewImageUrl = 'themes/shop/visual-debut/images/sections/collage.png';
+
     protected static int $maxBlocks = 3;
 
     public static function name(): string
@@ -29,11 +31,6 @@ class Collage extends BladeSection
     public static function description(): string
     {
         return _t('collage.description');
-    }
-
-    public static function previewImageUrl(): string
-    {
-        return bagisto_asset('images/sections/collage.png', 'visual-debut');
     }
 
     public static function settings(): array
