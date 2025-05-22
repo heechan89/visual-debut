@@ -92,10 +92,10 @@ class Header extends BladeSection
                         ->default('lucide-user'),
 
                     Text::make('guest_heading', _t('header.blocks.user.settings.guest_heading_label'))
-                        ->default(__('header.blocks.user.settings.guest_heading_default')),
+                        ->default(_t('header.blocks.user.settings.guest_heading_default')),
 
                     RichText::make('guest_description', _t('header.blocks.user.settings.guest_description_label'))
-                        ->default(__('header.blocks.user.settings.guest_description_default'))
+                        ->default(_t('header.blocks.user.settings.guest_description_default'))
                 ]),
 
             Block::make('cart', _t('header.blocks.cart.name'))

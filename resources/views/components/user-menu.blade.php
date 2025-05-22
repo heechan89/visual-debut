@@ -39,14 +39,14 @@
         <div class="p-4">
           <div class="grid grid-cols-2 gap-2">
             <x-shop::ui.button icon="lucide-log-in" href="{{ route('shop.customer.session.create') }}">
-              @lang('shop::app.components.layouts.header.sign-in')
+              @lang('visual-debut::sections.header.blocks.user.sign-in')
             </x-shop::ui.button>
             <x-shop::ui.button
               variant="outline"
               icon="lucide-log-in"
               href="{{ route('shop.customers.register.index') }}"
             >
-              @lang('shop::app.components.layouts.header.sign-up')
+              @lang('visual-debut::sections.header.blocks.user.sign-up')
             </x-shop::ui.button>
           </div>
         </div>

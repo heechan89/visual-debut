@@ -97,6 +97,8 @@ return [
             ],
             'user' => [
                 'name' => 'उपयोगकर्ता मेनू',
+                'sign-in' => 'साइन इन',
+                'sign-up' => 'साइन अप',
                 'settings' => [
                     'icon_label' => 'आइकन',
                     'guest_heading_label' => 'अतिथि उपयोगकर्ताओं को दिखाया गया शीर्षक',

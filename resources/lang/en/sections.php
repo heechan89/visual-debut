@@ -96,6 +96,8 @@ return [
             ],
             'user' => [
                 'name' => 'User menu',
+                'sign-in' => 'Sign In',
+                'sign-up' => 'Sign Up',
                 'settings' => [
                     'icon_label' => 'Icon',
                     'guest_heading_label' => 'Heading shown to guest users',

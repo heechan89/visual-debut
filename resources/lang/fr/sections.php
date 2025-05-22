@@ -94,6 +94,8 @@ return [
             ],
             'user' => [
                 'name' => 'Menu utilisateur',
+                'sign-in' => 'Connexion',
+                'sign-up' => 'S’inscrire',
                 'settings' => [
                     'icon_label' => 'Icône',
                     'guest_heading_label' => 'Titre pour les invités',
