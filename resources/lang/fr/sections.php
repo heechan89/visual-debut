@@ -80,6 +80,7 @@ return [
             ],
             'search' => [
                 'name' => 'Formulaire de recherche',
+                'placeholder' => 'Recherchez des produits ici',
                 'settings' => [
                     'search_icon_label' => 'Icône de recherche',
                     'image_search_icon_label' => 'Icône de recherche par image'
@@ -96,7 +97,9 @@ return [
                 'settings' => [
                     'icon_label' => 'Icône',
                     'guest_heading_label' => 'Titre pour les invités',
-                    'guest_description_label' => 'Description pour les invités'
+                    'guest_description_label' => 'Description pour les invités',
+                    'guest_heading_default' => 'Bienvenue invité',
+                    'guest_description_default' => 'Gérer le panier, les commandes et la liste de souhaits',
                 ]
             ],
             'cart' => [

@@ -41,8 +41,8 @@
             value="{{ request('query') }}"
             minlength="{{ core()->getConfigData('catalog.products.search.min_query_length') }}"
             maxlength="{{ core()->getConfigData('catalog.products.search.max_query_length') }}"
-            placeholder="@lang('shop::app.components.layouts.header.search-text')"
-            aria-label="@lang('shop::app.components.layouts.header.search-text')"
+            placeholder="@lang('visual-debut::sections.header.blocks.search.placeholder')"
+            aria-label="@lang('visual-debut::sections.header.blocks.search.placeholder')"
             aria-required="true"
             pattern="[^\\]+"
             required

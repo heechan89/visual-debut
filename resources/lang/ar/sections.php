@@ -83,6 +83,7 @@ return [
             ],
             'search' => [
                 'name' => 'نموذج البحث',
+                'placeholder' => 'ابحث عن المنتجات هنا',
                 'settings' => [
                     'search_icon_label' => 'أيقونة البحث',
                     'image_search_icon_label' => 'أيقونة البحث بالصور',
@@ -100,6 +101,8 @@ return [
                     'icon_label' => 'الأيقونة',
                     'guest_heading_label' => 'العنوان المعروض للمستخدمين الضيوف',
                     'guest_description_label' => 'الوصف المعروض للمستخدمين الضيوف',
+                    'guest_heading_default' => 'مرحبا بالزائر',
+                    'guest_description_default' => 'إدارة السلة، الطلبات وقائمة الرغبات',
                 ],
             ],
             'cart' => [

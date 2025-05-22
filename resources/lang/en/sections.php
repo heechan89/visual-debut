@@ -82,6 +82,7 @@ return [
             ],
             'search' => [
                 'name' => 'Search form',
+                'placeholder' => 'Search products here',
                 'settings' => [
                     'search_icon_label' => 'Search icon',
                     'image_search_icon_label' => 'Image search icon'
@@ -98,7 +99,9 @@ return [
                 'settings' => [
                     'icon_label' => 'Icon',
                     'guest_heading_label' => 'Heading shown to guest users',
-                    'guest_description_label' => 'Description shown to guest users'
+                    'guest_description_label' => 'Description shown to guest users',
+                    'guest_heading_default' => 'Welcome Guest',
+                    'guest_description_default' => 'Manage Cart, Orders & Wishlist',
                 ]
             ],
             'cart' => [

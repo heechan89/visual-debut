@@ -83,6 +83,7 @@ return [
             ],
             'search' => [
                 'name' => 'खोज फ़ॉर्म',
+                'placeholder' => 'यहाँ उत्पाद खोजें',
                 'settings' => [
                     'search_icon_label' => 'खोज आइकन',
                     'image_search_icon_label' => 'छवि खोज आइकन'
@@ -99,7 +100,9 @@ return [
                 'settings' => [
                     'icon_label' => 'आइकन',
                     'guest_heading_label' => 'अतिथि उपयोगकर्ताओं को दिखाया गया शीर्षक',
-                    'guest_description_label' => 'अतिथि उपयोगकर्ताओं को दिखाया गया विवरण'
+                    'guest_description_label' => 'अतिथि उपयोगकर्ताओं को दिखाया गया विवरण',
+                    'guest_heading_default' => 'अतिथि का स्वागत है',
+                    'guest_description_default' => 'कार्ट, ऑर्डर और विशलिस्ट प्रबंधित करें',
                 ]
             ],
             'cart' => [
